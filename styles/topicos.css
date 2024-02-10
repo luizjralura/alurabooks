@@ -11,10 +11,9 @@
 }
 
 .topicos__lista{
-    display: flex;
-/* flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebrados em várias linhas */
-    flex-wrap: wrap; 
-    justify-content: center;
+    display: flex; /* Distribuir os elementos horizontalmente */
+    flex-wrap: wrap; /* flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebrados em várias linhas */
+    justify-content: center; /* Centralizar o conteúd */
 }
 
 .topicos__item{
