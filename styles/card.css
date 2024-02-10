@@ -4,6 +4,10 @@
     margin-bottom: 1em;
 }
 
+.descricao{
+    margin-right: .5em;
+}
+
 .card__botoes{
     display: flex;
     justify-content: space-between;
@@ -46,8 +50,18 @@
 
 .descricao__texto{
     font-size: 14px;
+    line-height: 1.5;
 }
 
 .botoes__item{
     margin: 0 .5em;
+}
+
+.estrela {
+    display: flex;
+    align-items: center;
+}
+
+.estrela__item{
+    margin: 0.5em 0;
 }
