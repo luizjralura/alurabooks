@@ -2,6 +2,7 @@
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
 @import url("styles/card.css");
+@import url("styles/topicos.css");
 
 :root {
     --branco: #FFFFFF;
@@ -10,7 +11,6 @@
     --azul: rgba(0, 47, 82, 1);
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
-
 }
 
 body {
