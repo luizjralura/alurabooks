@@ -4,6 +4,7 @@
 @import url("styles/card.css");
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
+@import url(styles/footer.css);
 
 :root {
     --branco: #FFFFFF;
