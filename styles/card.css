@@ -65,3 +65,14 @@
 .estrela__item{
     margin: 0.5em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .card{
+        margin: 4em 16em;
+    }
+
+    .descricao__texto{
+        font-size: 16px;
+    }
+
+}

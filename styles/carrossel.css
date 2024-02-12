@@ -22,3 +22,24 @@
     position: initial;
     margin: .5em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .swiper{
+        margin: 0 8em;
+    }
+
+    .swiper-button-prev,.swiper-button-next{
+        display: inline;
+        margin-top: 15px;
+    }
+
+    .carrossel__titulo{
+        padding: 1.5em 0;
+        font-size: 26px;
+    }
+
+
+    .swiper-pagination{
+        margin: 2em 0;
+    }
+}
