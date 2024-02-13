@@ -18,6 +18,14 @@
     display: inline-block;
 }
 
+.container__botao:checked~.container__rotulo > .cabecalho__menu-hamburguer{
+    background-image: url(/img/MenuAberto.svg);
+}
+
+.container__botao:checked~.container__rotulo{
+    background: var(--azul-degrade);
+}
+
 .container__imagem {
     padding: 1em;
 }
@@ -61,7 +69,7 @@
 
 @media screen and (min-width: 1024px) {
 
-    .container__imagem-transparente, .container__texto, .opcoes__botao, .cabecalho__menu-hamburguer{
+    .container__imagem-transparente, .container__texto, .opcoes__botao, .cabecalho__menu-hamburguer {
         display: none;
     }
 
@@ -99,8 +107,23 @@
 
     .opcoes__item {
         text-transform: uppercase;
+        padding: 1em;
     }
 
+    .opcoes__botao:checked~.opcoes__rotulo > .opcoes__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+        padding: 1em;
+    }
+
+    .lista-menu__item:hover{
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color: var(--branco);
+    }
+    
 }
 
 @media screen and (min-width: 1728px) {
@@ -123,5 +146,9 @@
 
     .opcoes{
         margin-right: auto;
+    }
+
+    .lista-menu {
+        margin: 0 0 0 2em;
     }
 }
